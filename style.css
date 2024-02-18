@@ -1,0 +1,56 @@
+body {
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 99vh;
+}
+
+.card__front {
+    background-image: url(images/bg-card-front.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 380px;
+    height: 180px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.card__front svg {
+    margin: 10px;
+    display: flex;
+}
+
+.card__front ul {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 0px;
+    list-style: none;
+}
+.card__number {
+    font-size: 30px;
+}
+
+.card__name-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.card__back {
+    background-image: url(images/bg-card-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 380px;
+    height: 180px;
+    margin-top: 1.5%;
+    margin-left: 13%;
+    border-radius: 10px;
+}
