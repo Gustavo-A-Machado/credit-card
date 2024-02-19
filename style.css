@@ -1,14 +1,19 @@
 body {
     background-image: url(images/bg-main-desktop.png);
     background-repeat: no-repeat;
-    background-size: 25%;
+    background-size: 25vw 100vh;
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 99vw;
     height: 99vh;
+}
+
+.cards {
+    width: 35vw;
+    height: 100vh;
 }
 
 .card__front {
@@ -18,7 +23,7 @@ main {
     width: 380px;
     height: 180px;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 20%;
     border-radius: 10px;
 }
 
@@ -51,6 +56,33 @@ main {
     width: 380px;
     height: 180px;
     margin-top: 1.5%;
-    margin-left: 13%;
+    margin-left: 35%;
     border-radius: 10px;
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input-box {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.input-box, input {
+    width: 300px;
+    height: 70px;
+    border-color: rgb(88, 8, 185);
+    border-radius: 10px;
+    border-width: 1.5px;
+    text-decoration: none;
+}
+
+.input-box, label {
+    display: flex;
+    flex-direction: column;
 }

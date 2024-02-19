@@ -16,7 +16,7 @@
 </head>
 <body>
   <main>
-    <div class="cards ">
+    <div class="cards">
       <div class="card__front">
         <svg width="110" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
         <ul>
@@ -35,35 +35,31 @@
         <div class="card__back">000
         </div>
     </div>
+    <div class="form-input">  
+      <form action="#">
 
-    <div class="form">  
-      <form action="">
-      Cardholder Name
-      <input type="text">
+      <div class="input-box">
+        <label for="cardholdername"> Card Holder Name</label>
+        <input type="text" name="cardholdername" id="cardholdername" placeholder="Nome do Títular">
+      </div>
 
-      Card Number
-      <input type="text">
+      <div class="input-box">
+        <label for="cardnumer">Card Number</label>
+        <input type="number" name="cardnumer" id="cardnumer" placeholder="Digite o número do cartão">
+      </div>
+      
+      <div class="input-box">
+        <label for="month">Month</label>
+        <input type="number" name="month" id="month" placeholder="(MM)">
 
-      Exp. Date (MM/YY)
-      <input type="number" name="" id="">
-      <input type="number" name="" id="">
+        <label for="year">Year</label>
+        <input type="number" name="year" id="year" placeholder="(YY)">
 
-
-      CVC
-      <input type="number" name="" id="">
-      e.g. 123
-
-      Confirm
-      </form>
-    </div>
-  </main>
-  Thank you!
-  We've added your card details
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <label for="CVC">CVC</label>
+        <input type="number" name="cvc" id="cvc" placeholder="e.g. 123">
+      </div>
+    </form>
   </div>
+  </main>
 </body>
 </html>
